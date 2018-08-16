@@ -1,0 +1,23 @@
+{
+  "name": "blog-api-mongoose",
+  "version": "1.0.0",
+  "description": "blog post app with mongoose",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleyesa/blog-api-mongoose.git"
+  },
+  "author": "Aaron L.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleyesa/blog-api-mongoose/issues"
+  },
+  "homepage": "https://github.com/aleyesa/blog-api-mongoose#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
