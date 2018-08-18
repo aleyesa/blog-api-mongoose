@@ -8,8 +8,10 @@ const blogPostSchema = mongoose.Schema({
     firstName: String,
     lastName: String
   },
-  created: { type: String, required: true }
+  created: { type: Date, default: Date.now }
 });
+
+console.log(blogPostSchema);
 
 blogPostSchema.methods.serialize = function() {
   return {
@@ -20,6 +22,10 @@ blogPostSchema.methods.serialize = function() {
     created: this.created
   };
 };
+
+blogPostSchema.methods.name = 'Aaron Leyesa';
+
+console.log(blogPostSchema);
 
 const BlogPost = mongoose.model('BlogPost', blogPostSchema);
 
