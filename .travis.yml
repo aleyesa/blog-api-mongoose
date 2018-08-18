@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: JHnjmd5q3uhIBf7l8xvr84slhxJkvcuMsVCWkUqVKT5UbIOlLbyZ6HPC7MUKxZ6NRFTqechmdkV15NmI/00dibjmadyiWuVS1oOIGVeuoelO3ZkjbrCRzVCO1LsV5WzWMk81zJk0LxdlpeUmu0KBiXH5ij3K2ITHmGs0mmMKM2tZkOpHxcicp2pAgTggb3wIKOTmLiq73c/AS7ODxgYdZs00FnKw0uZClupFa71vfqXa5pYJFkyDmIkKLsuclM/0dxv5GdfDM2DdNGEd9drnk+/YWVuXNnTR35il5RigkFPUaw9rhPxo6JsHAnN6xOPXJIIRF59q7zHjmCXlFYk3P3q+C1Dj30+wOLky4JWa/Fk7agwuw2bet4HFT3WzOK7Z9edSS1xvo89pfRLFR1bO8QBkLZVhgIcvsfd1TYX+npMAMqlKa1NKUCXANS6HRUWmqAh/YQJHDrmYm1oy9e+nvwMUQ5AIlWlAnsqUO3qdPjj04GLBFSTxaoIn5tLjikN/3DNlLMdRHfnzROVMybneiUYcNRowIE4AboU4ysaP6QxnTq0ynnH0VY9d/IiiUH+jN4Y49j1VNPw5NLnb2BjP/QxxtoIzp3L+BstTxSnw3iQZsJQ1HMLBKoKYX4j2ip+7IebGOhBALxQXmNRBs6BfNpmkgvBK+xBC/XxSVcFHnoY=
+  app: lit-reef-46646
+  on:
+    repo: aleyesa/blog-api-mongoose
