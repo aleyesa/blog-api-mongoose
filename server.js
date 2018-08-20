@@ -5,7 +5,7 @@ const blogPostRouter = require('./blogPostRouter');
 
 mongoose.Promise = global.Promise;
 
-const { PORT, DATABASE_URL } = require('./config');
+const { PORT, DATABASE_URL, TEST_DATABASE_URL } = require('./config');
 
 const app = express();
 app.use(express.json());
