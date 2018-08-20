@@ -29,7 +29,7 @@
 
 ## [POST] Create  new post
 ### https://lit-reef-46646.herokuapp.com/api/posts
-### required keys
+## required keys: 
 ### title: string,
 ### content: string,
 ### author_id: string
